@@ -25,3 +25,33 @@ A comprehensive test automation framework for e-commerce applications, supportin
 - **Version Control**: Git/GitHub
 
 ## 📁 Framework Structure
+src/test/java/
+├── runners/ # Test runners
+├── stepDefinitions/ # BDD step implementations
+├── pages/ # Page Object Model classes
+├── utilities/ # Helper classes and utilities
+└── resources/
+├── features/ # Gherkin feature files
+└── config.properties
+
+
+## 🎯 Test Coverage
+
+- **UI Tests**: Login, registration, product search, cart management
+- **API Tests**: REST API validation, status codes, response schemas
+- **Database Validation**: SQL queries for data integrity checks
+- **Cross-Browser Testing**: Multi-browser compatibility
+
+## ⚡ Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ozgemeva/end-to-end-ecommerce-test-framework.git
+
+ ## Run tests with Maven
+bash
+mvn clean test
+
+## Generate Allure reports
+bash
+mvn allure:serve
