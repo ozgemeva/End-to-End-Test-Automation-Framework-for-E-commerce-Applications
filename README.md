@@ -43,15 +43,23 @@ src/test/java/
 - **Cross-Browser Testing**: Multi-browser compatibility
 
 ## ⚡ Getting Started
-
-1. **Clone the repository**
+ **Clone the repository**
    ```bash
    git clone https://github.com/ozgemeva/end-to-end-ecommerce-test-framework.git
 
- ## Run tests with Maven
+ **Run tests with Maven**
 bash
 mvn clean test
 
-## Generate Allure reports
+**Generate Allure reports** 
 bash
 mvn allure:serve
+
+## CI/CD Pipeline
+Framework is integrated with Jenkins for:
+Automated test execution on code changes
+Cross-browser parallel testing
+Allure report generation
+Test result notifications
+
+## Connect with me: LinkedIn | Email
