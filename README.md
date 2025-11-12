@@ -2,7 +2,7 @@
 
 A comprehensive test automation framework for e-commerce applications, supporting both UI and API testing with Selenium WebDriver, REST Assured, and BDD practices.
 
-## 🚀 Features
+## Features
 
 - **Full Stack Testing**: UI & API test automation in one framework
 - **BDD Approach**: Cucumber with Gherkin syntax for business-readable scenarios
@@ -12,7 +12,7 @@ A comprehensive test automation framework for e-commerce applications, supportin
 - **Design Patterns**: Page Object Model (POM) for maintainable code
 - **Parallel Execution**: Faster test execution across multiple browsers
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Programming Language**: Java 11
 - **UI Automation**: Selenium WebDriver 4.x
@@ -24,7 +24,7 @@ A comprehensive test automation framework for e-commerce applications, supportin
 - **Reporting**: Allure Reports
 - **Version Control**: Git/GitHub
 
-## 📁 Framework Structure
+## Framework Structure
 src/test/java/
 ├── runners/ # Test runners
 ├── stepDefinitions/ # BDD step implementations
@@ -35,31 +35,29 @@ src/test/java/
 └── config.properties
 
 
-## 🎯 Test Coverage
+## Test Coverage
 
 - **UI Tests**: Login, registration, product search, cart management
 - **API Tests**: REST API validation, status codes, response schemas
 - **Database Validation**: SQL queries for data integrity checks
 - **Cross-Browser Testing**: Multi-browser compatibility
 
-## ⚡ Getting Started
- **Clone the repository**
-   ```bash
+## Getting Started ## 
+- **Clone the repository**
+   bash
    git clone https://github.com/ozgemeva/end-to-end-ecommerce-test-framework.git
-
- **Run tests with Maven**
-bash
-mvn clean test
-
-**Generate Allure reports** 
-bash
-mvn allure:serve
+- **Run tests with Maven**
+   bash
+   mvn clean test
+- **Generate Allure reports** 
+   bash
+   mvn allure:serve
 
 ## CI/CD Pipeline
 Framework is integrated with Jenkins for:
-Automated test execution on code changes
-Cross-browser parallel testing
-Allure report generation
-Test result notifications
+-Automated test execution on code changes
+-Cross-browser parallel testing
+-Allure report generation
+-Test result notifications
 
-## Connect with me: LinkedIn | Email
+## Connect with me: (https://www.linkedin.com/in/ozge-meva-yilmaz/) | ozgemeva@hotmail.com
