@@ -53,11 +53,11 @@ src/test/java/
    bash
    mvn allure:serve
 
-## CI/CD Pipeline
+- **CI/CD Pipeline**
 Framework is integrated with Jenkins for:
 -Automated test execution on code changes
 -Cross-browser parallel testing
 -Allure report generation
 -Test result notifications
 
-## Connect with me: (https://www.linkedin.com/in/ozge-meva-yilmaz/) | ozgemeva@hotmail.com
+**Connect with me: (https://www.linkedin.com/in/ozge-meva-yilmaz/) | ozgemeva@hotmail.com**
